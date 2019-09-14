@@ -8,7 +8,7 @@ class Test1 {
             // 1.反射获取mysql驱动实例
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
-            System.out.println("找不到驱动程序类，加载驱动失败！");
+//            System.out.println("找不到驱动程序类，加载驱动失败！");
             e.printStackTrace();
         }
 
